@@ -3,12 +3,14 @@ This repository is to accompany my Holiday LED 2.0 youtube video:
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/90n8cZJcFaU/0.jpg)](https://www.youtube.com/watch?v=90n8cZJcFaU)
 
-this new version is easier to setup and can support 6 zones dynamically
+This new version is easier to setup and can support 6 zones dynamically.
 
 The node-red portion of the configuration is no longer needed, all processing is handled in the arduino code. 
 
 ## Setup Instructions
-Fill out the entire USER CONFIGURATION section of the code.
+Save-as *arduino_secrets_sample.h* to *arduino_secrets.h* and fill out appropriate information. This file will **not** be uploaded to github, so feel free to push other changes if you've got a fork of this repository.
+
+Fill out all appropriate information in *user_config.h*.
 
 It is recommended that you leave at least 2 zones enabled, leaving only a single zone seems to result in jittery animations. 
 

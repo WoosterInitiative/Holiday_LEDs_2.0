@@ -1,0 +1,7 @@
+#define USER_SSID                 "YOUR_WIRELESS_SSID"
+#define USER_PASSWORD             "YOUR_WIRELESS_PW"
+#define USER_MQTT_SERVER          "YOUR_MQTT_SERVER_ADDRESS"
+#define USER_MQTT_PORT            1883
+#define USER_MQTT_USERNAME        "YOUR_MQTT_USERNAME"
+#define USER_MQTT_PASSWORD        "YOUR_MQTT_PASSWORD"
+#define USER_MQTT_CLIENT_NAME     "LightMCU"
